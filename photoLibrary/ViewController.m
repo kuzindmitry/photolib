@@ -16,13 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)viewDidAppear:(BOOL)animated {
+    DKPhotos *photos = [[DKPhotos alloc] init];
+    photos.limit = 50;
+    photos.imageSize = CGSizeMake(150, 150);
+    photos.imageCamera = [UIImage imageNamed:@"camera"];
+    photos.titleBar = @"Фото";
+    photos.navigationBar.barStyle = UIBarStyleBlack;
+    photos.navigationBar.translucent = NO;
+    photos.navigationBar.tintColor = [UIColor whiteColor];
+    photos.navigationBar.barTintColor = [UIColor colorWithRed:0.0/255.0 green:112.0/255.0 blue:160.0/255.0 alpha:1.0];
+    [self presentViewController:photos animated:YES completion:nil];
 }
 
 

@@ -13,6 +13,10 @@
 		2C9214121E9F6F7000169BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9214101E9F6F7000169BA6 /* Main.storyboard */; };
 		2C9214141E9F6F7000169BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9214131E9F6F7000169BA6 /* Assets.xcassets */; };
 		2C9214171E9F6F7000169BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9214151E9F6F7000169BA6 /* LaunchScreen.storyboard */; };
+		2C9214201E9F6FDB00169BA6 /* DKPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C92141F1E9F6FDB00169BA6 /* DKPhotoViewController.m */; };
+		2C9214231E9F7DAF00169BA6 /* DKPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9214221E9F7DAF00169BA6 /* DKPhotoCell.m */; };
+		2C9214261E9F9B7700169BA6 /* DKEditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9214251E9F9B7700169BA6 /* DKEditImageViewController.m */; };
+		2C9214291E9F9BB200169BA6 /* DKPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9214281E9F9BB200169BA6 /* DKPhotos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		2C9214131E9F6F7000169BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C9214161E9F6F7000169BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9214181E9F6F7000169BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C92141E1E9F6FDB00169BA6 /* DKPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPhotoViewController.h; sourceTree = "<group>"; };
+		2C92141F1E9F6FDB00169BA6 /* DKPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPhotoViewController.m; sourceTree = "<group>"; };
+		2C9214211E9F7DAF00169BA6 /* DKPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPhotoCell.h; sourceTree = "<group>"; };
+		2C9214221E9F7DAF00169BA6 /* DKPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPhotoCell.m; sourceTree = "<group>"; };
+		2C9214241E9F9B7700169BA6 /* DKEditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKEditImageViewController.h; sourceTree = "<group>"; };
+		2C9214251E9F9B7700169BA6 /* DKEditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKEditImageViewController.m; sourceTree = "<group>"; };
+		2C9214271E9F9BB200169BA6 /* DKPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPhotos.h; sourceTree = "<group>"; };
+		2C9214281E9F9BB200169BA6 /* DKPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPhotos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				2C92140B1E9F6F7000169BA6 /* AppDelegate.m */,
 				2C92140D1E9F6F7000169BA6 /* ViewController.h */,
 				2C92140E1E9F6F7000169BA6 /* ViewController.m */,
+				2C9214271E9F9BB200169BA6 /* DKPhotos.h */,
+				2C9214281E9F9BB200169BA6 /* DKPhotos.m */,
+				2C92141E1E9F6FDB00169BA6 /* DKPhotoViewController.h */,
+				2C92141F1E9F6FDB00169BA6 /* DKPhotoViewController.m */,
+				2C9214241E9F9B7700169BA6 /* DKEditImageViewController.h */,
+				2C9214251E9F9B7700169BA6 /* DKEditImageViewController.m */,
+				2C9214211E9F7DAF00169BA6 /* DKPhotoCell.h */,
+				2C9214221E9F7DAF00169BA6 /* DKPhotoCell.m */,
 				2C9214101E9F6F7000169BA6 /* Main.storyboard */,
 				2C9214131E9F6F7000169BA6 /* Assets.xcassets */,
 				2C9214151E9F6F7000169BA6 /* LaunchScreen.storyboard */,
@@ -152,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C92140F1E9F6F7000169BA6 /* ViewController.m in Sources */,
+				2C9214261E9F9B7700169BA6 /* DKEditImageViewController.m in Sources */,
 				2C92140C1E9F6F7000169BA6 /* AppDelegate.m in Sources */,
+				2C9214231E9F7DAF00169BA6 /* DKPhotoCell.m in Sources */,
+				2C9214291E9F9BB200169BA6 /* DKPhotos.m in Sources */,
+				2C9214201E9F6FDB00169BA6 /* DKPhotoViewController.m in Sources */,
 				2C9214091E9F6F7000169BA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

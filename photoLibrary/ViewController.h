@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DKPhotos.h"
 
 @interface ViewController : UIViewController
 
